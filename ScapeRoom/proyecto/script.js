@@ -22,8 +22,8 @@ const escenas = [
         imagen: "img/pokemon_oscuro.png",
         texto: "Llegas a una sala completamente oscura. De repente, dos Pokémon aparecen ante ti. Uno parece amistoso… pero otro tiene una mirada peligrosa.",
         triggers: [
-            { top: 180, left: 200, width: 100, height: 100, next: 4 },
-            { top: 180, left: 500, width: 100, height: 100, next: 7 }]
+            { top: 65, left: 15, width: 20, height: 30, next: 4 },
+            { top: 18, left: 50, width: 70, height: 80, next: 7 }]
     },
 
     {//3
@@ -36,45 +36,45 @@ const escenas = [
 
     {//4
         imagen: "img/pokemon_luz.png",
-        texto: "Camino derecho — FIN",
+        texto: "El Pokémon bueno ilumina la sala con su ataque especial. El Destello hace que toda la sala quede iluminada y obliga a retroceder al Pokémon que pretendía atacarte.",
         triggers: [
-            { top: 220, left: 300, width: 80, height: 80, next: 5 }
+            { top: 65, left: 15, width: 20, height: 30, next: 5 }
         ]
     },
 
     {//5
         imagen: "img/seVeSalida1.png",
-        texto: "Camino derecho — FIN",
+        texto: "Ahora puedes ver una salida al fondo de la cueva. Parece que estás más cerca de escapar.",
         triggers: [
-            { top: 220, left: 300, width: 80, height: 80, next: 6 }
+            { top: 65, left: 55, width: 20, height: 30, next: 6 }
         ]
     },
 
     {//6
         imagen: "img/salida.png",
-        texto: "Camino derecho — FIN",
+        texto: "¡Has encontrado la salida! Ahora puedes seguir tu viaje para capturarlos a todos.",
         triggers: []
     },
 
     {//7
         imagen: "img/dedoChari.png",
-        texto: "Camino derecho — FIN",
+        texto: "El Pokémon se enfurece y te ataca sin piedad. ¡La cueva comienza a derrumbarse!",
         triggers: [
-            { top: 220, left: 300, width: 80, height: 80, next: 8 }
+            { top: 18, left: 50, width: 70, height: 80, next: 8 }
         ]
     },
 
     {//8
         imagen: "img/fuego1.png",
-        texto: "Camino derecho — FIN",
+        texto: "Este es el fin, el aliento de fuego del Pokémon es demasiado poderoso y la cueva no aguantará más.",
         triggers: [
-            { top: 220, left: 300, width: 80, height: 80, next: 9 }
+            { top: 18, left: 50, width: 70, height: 80, next: 9 }
         ]
     },
 
     {//9
         imagen: "img/muerte.png",
-        texto: "Camino derecho — FIN",
+        texto: "¡Vuelve a intentarlo!",
         triggers: [
             { top: 220, left: 300, width: 80, height: 80, next: 0 }
         ]
